@@ -14,6 +14,7 @@ export default function immutableRenderDecorator(Target) {
   }
 
   Wrapper.prototype.shouldComponentUpdate = shouldComponentUpdate;
+  Wrapper.prototype.setImmState = (updater) => this.setState(({data}) => ({ data: updater(data) }));
 
   return Wrapper;
 }

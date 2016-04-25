@@ -1,9 +1,9 @@
 {
-  "name": "react-immutable-render-mixin",
+  "name": "react-immutable-render",
   "version": "0.9.5",
   "description": "React PureRenderMixin replacement for immutable-js library",
-  "homepage": "https://github.com/jurassix/react-immutable-render-mixin",
-  "bugs": "https://github.com/jurassix/react-immutable-render-mixin/issues",
+  "homepage": "https://github.com/allanfish/react-immutable-render-mixin",
+  "bugs": "https://github.com/allanfish/react-immutable-render-mixin/issues",
   "scripts": {
     "build": "npm run clean && npm run lint && npm run build:lib && npm run build:spec",
     "build:lib": "mkdirp lib && babel src -d lib",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jurassix/react-immutable-render-mixin.git"
+    "url": "https://github.com/allanfish/react-immutable-render-mixin.git"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
